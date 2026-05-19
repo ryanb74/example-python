@@ -26,7 +26,7 @@ conflicts = [
 
 [tool.uv.sources]
 testprojectuv = [
-    { path = "../testprojectuv", group = "dev" },
+    { path = "../testprojectuv", group = "dev", editable = true },
     { git = "https://github.com/ryanb74/testprojectuv.git", group = "prod" },
 ]
 
