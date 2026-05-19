@@ -4,7 +4,13 @@ A basic Python project scaffolded with `uv`.
 
 ## Installation
 
+Prod: 
 ```bash
+uv sync --no-dev --group prod
+```
+
+Dev (by default it chooses dev group and not prod as dev is firsti n the list):
+```
 uv sync
 ```
 
